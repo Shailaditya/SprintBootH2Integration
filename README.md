@@ -5,8 +5,7 @@ A simple CRUD application using in memory H2 database for persistence.
 
 Steps to build & run
 
-build-
-mvn clean package install
-
-run-
-mvn spring-boot:run
+1)Login to project root directory
+2)Run following commands
+    mvn clean package install //This will build the jar
+    java -jar target/SpringBootH2-0.0.1-SNAPSHOT.jar //This will run the spring boot application
